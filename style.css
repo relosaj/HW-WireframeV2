@@ -1,49 +1,72 @@
-<!-- BEGIN CSS -->
-<style>
 
-	.body{
 
-	}
+body{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #777;
+	text-align: center;
+	font-color: #ebebeb;
+	width: 960px;
+}
 
-	.header{
-		font-family: Arial;
-		font-size: 18px;
-		background-color: #777;
-		text-align: center;
-		font-color: #ebebeb;
-	}
+header{
+	float: left;
+	width: 100%;
+	background: lightgray;
+	padding: 40px;
+	margin: 10px;
+}
 
-	.footer{
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
-	.nav{
 
-	}
+nav{
+	float: left;
+	width: 100%;
+	background: lightgray;
+	padding: 40px;
+	margin: 10px;
+}
 
-	.aside{
+section{
+	float: left;
+	width: 60%;
+	background: lightgray;
+	padding: 40px;
+	margin: 10px;
+	height: 300px;
+}
 
-	}
+article{
+	float: left;
+	width: 40%;
+	background: lightgray;
+	padding: 40px;
+	margin: 10px;
+	height: 300px;
+}
 
-	.sectionP{
+h1 {
 
-	}
+}
 
-	.article{
+h2 {
 
-	}
-
-	.header{
-		font-family: Arial;
-		font-size: 18px;
-		background-color: #777;
-        text-align: center;
-	}
-
-	p{
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
+}
 	
+h3 {
 
+}
+
+p{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+	
+aside{
+
+}
+
+footer{
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 
 
