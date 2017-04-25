@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #777;
+	text-align: center;
+	font-color: #ebebeb;
+	width: 960px;
+}
+
+header{
+	float: left;
+	width: 100%;
+	background: lightgray;
+	padding: 40px;
+	margin: 0 0px 10px 200px;
+}
+
+nav{
+	float: left;
+	width: 100%;
+	background: lightgray;
+	padding: 40px;
+	margin: 0 10px 20px 10px;
+}
+
+.container{
+	overflow: auto;
+	clear: both;	
+	background: black;
+	width: 570px;
+}
+
+.s1 {
+	float: left;
+	clear: both;
+	width: 550px;
+	background: lightgray;
+	padding: 10px;
+	margin: 2px 0;
+
+}
+
+.headers {
+	clear: both;
+	float: left;
+	width: 90%;
+	background: lightgray;
+	padding: 30px;
+	margin: 10px 0 2px 25px;
+	height: 80px;
+
+	##	padding: 20px;
+}
+	
+p {
+	float: left;
+	width: 40%;
+	background: lightgray;
+	padding: 30px;
+	margin: 10px 0 2px 25px;
+	height: 80px;
+}
+
+
+.article1{
+	clear: both;
+	background-color: #777;
+	height: 150px;
+	padding: 20px;
+}
+
+	
+aside {
+	clear: both;
+	float: left;
+	width: 40%;
+	background: lightgray;
+	padding: 40px;
+	margin: 10px;
+	height: 300px;
+}
+
+footer {
+	clear: both;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #777;
+	text-align: center;
+	font-color: #ebebeb;
+	width: 960px;
+}
+
+</style> 
+<!-- END CSS -->
