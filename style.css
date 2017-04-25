@@ -1,4 +1,7 @@
-
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
 
 body{
 	font-family: Arial;
@@ -14,7 +17,7 @@ header{
 	width: 100%;
 	background: lightgray;
 	padding: 40px;
-	margin: 10px;
+	margin: 0 10px 10px 10px;
 }
 
 
@@ -23,19 +26,59 @@ nav{
 	width: 100%;
 	background: lightgray;
 	padding: 40px;
-	margin: 10px;
+	margin: 0 10px 20px 10px;
+}
+
+#jumble{
+	overflow: auto;
+	clear: both;
+	width: 60%;
 }
 
 section{
+	overflow: auto;
+	clear: both;
 	float: left;
 	width: 60%;
 	background: lightgray;
-	padding: 40px;
-	margin: 10px;
-	height: 300px;
+	padding: 10px;
+	margin: 2px 10px;
+
 }
 
 article{
+	clear: both;
+	background-color: #777;
+	height: 150px;
+
+}
+
+h1 {
+	background: red;
+	z-index: 1;
+}
+
+h2 {
+	background: green;
+
+}
+	
+h3 {
+	background: yellow;
+
+}
+
+p{
+	float: left;
+	width: 100%;
+	background: lightgray;
+	padding: 40px;
+
+
+}
+	
+aside{
+	clear: both;
 	float: left;
 	width: 40%;
 	background: lightgray;
@@ -44,47 +87,15 @@ article{
 	height: 300px;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-	
-h3 {
-
-}
-
-p{
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-	
-aside{
-
-}
-
 footer{
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	clear: both;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #777;
+	text-align: center;
+	font-color: #ebebeb;
+	width: 960px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </style> 
 <!-- END CSS -->
